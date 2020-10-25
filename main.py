@@ -22,3 +22,5 @@ for file in get_files(inputPath):
     print("File read successfully...\n")
 
 generate_table(outputPath + "Table.xlsx", matrix)
+
+input("Press enter to continue...")
